@@ -1,10 +1,14 @@
 {
   "listadoUsuario": [
-        {
-          "nombre":"Gustavo",
-          "apellido":"Vazquez",
-          "correo":"gusgoludo9@gmail.com",
-          "contra":"CruzAzul.9"
-        }
-      ]
+       {
+         "nombre":"Gustavo",
+         "apellido":"Vazquez",
+         "correo":"gusgoludo9@gmail.com",
+         "contra":"CruzAzul.9"
+       }
+     ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
 }
