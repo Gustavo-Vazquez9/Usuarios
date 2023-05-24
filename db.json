@@ -1,7 +1,5 @@
 {
-  "status": "success",
-  "result": {
-      "listadoUsuario": [
+  "listadoUsuario": [
         {
           "nombre":"Gustavo",
           "apellido":"Vazquez",
@@ -9,5 +7,4 @@
           "contra":"CruzAzul.9"
         }
       ]
-  }
 }
