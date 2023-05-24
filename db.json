@@ -1,14 +1,38 @@
 {
-  "listadoUsuario": [
-       {
-         "nombre":"Gustavo",
-         "apellido":"Vazquez",
-         "correo":"gusgoludo9@gmail.com",
-         "contra":"CruzAzul.9"
-       }
-     ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Gustavo",
+      "apellido": "Vazquez",
+      "correo": "gusgoludo9@gmail.com",
+      "contra": "CruzAzul.9"
+    },
+    {
+      "id": 2,
+      "nombre": "Jazmin",
+      "apellido": "Morales Chavarria",
+      "correo": "jaz1234@gmail.com",
+      "contra": "Morena12"
+    }
+  ],
+  "tarjetas": [
+    {
+      "numero": "3372 4890 3742 5940",
+      "vencimiento": "01/25",
+      "tipo": "Tarjeta de Debito",
+      "categoria": "GFT Gold",
+      "color": "linear-gradient(90deg, rgba(164,146,17,1) 23%, rgba(195,173,11,1) 62%, rgba(232,205,5,1) 99%)",
+      "usuarioId": "1",
+      "id": 1
+    },
+    {
+      "numero": "4058 5610 4267 1146",
+      "vencimiento": "06/28",
+      "tipo": "Tarjeta de Credito",
+      "categoria": "GFT Premium",
+      "color": "linear-gradient(90deg, rgba(25,17,164,1) 23%, rgba(13,13,194,1) 62%, rgba(1,1,251,1) 99%)",
+      "usuarioId": "1",
+      "id": 2
+    }
   ]
 }
